@@ -21,8 +21,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc && eslint \"{**/*,*}.{js?(x),ts?(x)}\" --fix",
-    "lint:check": "tsc && eslint \"{**/*,*}.{js?(x),ts?(x)}\"",
+    "lint": "tsc && eslint \"**/*.?(c|m)[jt]s?(x)\" --fix",
+    "lint:check": "tsc && eslint \"**/*.?(c|m)[jt]s?(x)\"",
     "prepare": "husky",
     "release": "pnpm run build && changeset publish",
     "test": "vitest run",

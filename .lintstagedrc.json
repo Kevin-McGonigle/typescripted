@@ -1,8 +1,8 @@
 {
-  "{**/*,*}.{cjs,cts,html,js,jsx,mjs,mts,ts,tsx,vue}": [
+  "**/*.?(c|m)[jt]s?(x)": [
     "eslint --fix",
     "prettier --write --ignore-unknown",
     "vitest related --run"
   ],
-  "{**/*,*}.{?(s)css,html,json,y?(a)ml,md}": "prettier --write --ignore-unknown"
+  "**/*.{?(s)css,html,json,y?(a)ml,md}": "prettier --write --ignore-unknown"
 }
