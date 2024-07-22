@@ -29,17 +29,17 @@
     "test:watch": "vitest watch"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.5",
-    "@eslint/js": "^9.1.1",
+    "@changesets/cli": "^2.27.7",
+    "@eslint/js": "^9.7.0",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "eslint": "^9.1.1",
+    "eslint": "^9.7.0",
     "eslint-config-prettier": "^9.1.0",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "msw": "^2.2.14",
-    "prettier": "^3.2.5",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5",
-    "vitest": "^1.5.2"
+    "husky": "^9.1.1",
+    "lint-staged": "^15.2.7",
+    "msw": "^2.3.2",
+    "prettier": "^3.3.3",
+    "tsup": "^8.2.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.4"
   }
 }
