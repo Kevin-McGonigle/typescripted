@@ -35,7 +35,7 @@
     "eslint": "^10.0.2",
     "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.7",
+    "lint-staged": "^16.3.1",
     "msw": "^2.12.10",
     "prettier": "^3.8.1",
     "tsup": "^8.5.1",
